@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#grandContainer{
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../IMGS/imgFundo1.png");
+}
+
+#title{
+    font-size: 12vh;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#litteTitle{
+    font-size: 4vh;
+    color: #fff;
+    
+}
+
+#cabecalho{ 
+    top: 0;
+    position:sticky;
+    width: 100%;
+    height: 16vh;
+    background-color: rgb(255, 255, 255);
+}
+#HeaderUl{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#HeaderNav, #HeaderUl{
+    width: 100%;
+}
+#HeaderUl, #HeaderNav, #HeaderLi{
+    height: 100%;
+}
+.HeaderLi{
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+#logo{
+    width: 15vw;
+    height: 15vh;
+}
+
+.links{
+    font-size: 25px;
+    color: #342d69;
+}
+
+#container{
+    width: 100%;
+    height: 110vh;
+    background-color: #ec3838;
+}
